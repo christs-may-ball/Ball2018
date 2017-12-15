@@ -88,7 +88,7 @@ function initializeClock(id, endtime) {
   var timeinterval = setInterval(updateClock, 1000);
 }
 
-var deadline = new Date(Date.parse(new Date()) + 50 * 24 * 60 * 60 * 1000);
+var deadline = '02/02/2018 11:59:59';
 initializeClock('clockdiv', deadline);
 
 // Google Maps Scripts
