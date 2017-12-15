@@ -15,7 +15,7 @@ body {
   background-color: black;
   text-rendering: optimizeLegibility; }
 
-@import url('https://fonts.googleapis.com/css?family=Philosopher')
+@import url('https://fonts.googleapis.com/css?family=Philosopher');
 
 html {
   width: 100%;
