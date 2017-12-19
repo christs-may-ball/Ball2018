@@ -110,8 +110,8 @@ a {
   padding: 0, 0;
   text-align: center;
   color: white;
-  /*background: url("../img/bg.jpg") no-repeat bottom center scroll;*/
-  background-color: rgb(63,93,125);
+  background: url("../img/bg2.jpg") no-repeat bottom center scroll;
+  /*background-color: rgb(63,93,125);*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -119,6 +119,8 @@ a {
   .masthead .intro-body {
     display: table-cell;
     vertical-align: middle;
+    font-weight: 500;
+    text-shadow: 2px 2px 6px rgba(0,0,0,0.9);
 }
     .masthead .intro-body .brand-heading {
       font-size: 50px; }
