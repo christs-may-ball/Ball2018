@@ -1,0 +1,123 @@
+/* demo for illustrator CSS */
+
+body{
+	background:url(../../img/background/wood-free-cartoon.jpg) center center;
+	-webkit-background-size: 100%; 
+    -moz-background-size: 100%; 
+    background-size: 100%; 
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    background-size: cover;
+	font-family:'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.no-csstransforms3d .book,
+
+.no-js .book,
+
+.front {
+    /*background: url(../../img/background/dark-brown-leather-bg.jpg);*/
+    background: url(../../img/background/book-cover-d.png);
+    /*background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.2) 0%, rgba(255, 255, 255, 0.16) 15%, rgba(255, 255, 255, 0.05) 100%), url(../../img/cover-illustrator.jpg), #333;*/
+    /*background: linear-gradient(to right, rgba(0, 0, 0, 0.2) 0%, rgba(255, 255, 255, 0.16) 15%, rgba(255, 255, 255, 0.1) 100%), url(../../img/cover-illustrator.jpg), #333;*/
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:top;
+
+
+	padding: 10px 20px;
+
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	border: 1px solid #965F06;
+	-moz-box-shadow:
+		7px 9px 7px 7px rgba(000,000,000,0.5),
+		inset 0px 0px 1px 2px rgba(255,255,255,0.4);
+	-webkit-box-shadow:
+		7px 9px 7px 7px rgba(000,000,000,0.5),
+		inset 0px 0px 1px 2px rgba(255,255,255,0.4);
+	box-shadow:
+		7px 9px 7px 7px rgba(000,000,000,0.5),
+		inset 0px 0px 1px 2px rgba(255,255,255,0.4);	
+}
+
+
+h1.huge-title{
+	font-family: 'Felipa', Arial, Helvetica, sans-serif;
+    font-size: 4em;
+    font-weight: 600;
+    text-shadow: 2px 1px 8px #fff;
+	/*font-family:'Tulpen One', Arial, Helvetica, sans-serif;
+	font-size:6em;	
+	font-weight: 300;*/
+	color: #555;
+	margin-bottom:5px;
+	margin-top: 5px;
+}
+
+.content-title.title-2 h2{
+	/*font-size: 4em;*/
+    /* font-weight: 300; */
+    font-weight: 500;
+    text-shadow: 2px 1px 8px #fff;
+    color: #555;
+/*    
+	font-size:4em;
+	font-weight: 300;
+	color: #555;*/
+	margin-top:0px;
+	margin-bottom:0px
+}
+
+.content-title.foodanddrink h2{
+	right: 30px;
+}
+
+.content-title.title-3 h3{
+	font-family: 'Marvel', Arial, Helvetica, sans-serif;
+	color: #555;
+	font-size: 1.3em;
+	margin-bottom: 40px;
+}
+p.half-width{
+	/*display: block;
+	width: 80%;
+	margin-left:4px;*/
+}
+
+.intro-content h1{
+	font-family:'Felipa', cursive, Arial, Helvetica, sans-serif;
+	font-style:normal;
+	font-weight:bold;
+	font-size:2.6em;
+	text-shadow: 2px 1px 8px #fff;
+}
+
+.intro-content p{
+	font-family:'Bellefair', cursive, Arial;
+	font-size:1.5em;
+	color: black;
+	text-shadow: 2px 1px 8px #fff;
+}
+
+#front-cover-logo {
+	height: 15em;
+	width: 15em;
+}
+
+.content-title h2{
+	font-family:"Tulpen One", "Comic Sans MS", cursive;
+	text-transform: normal;
+}
+
+.book-timeline > li .time-data{
+	font-family:'Marvel', Arial, Helvetica, sans-serif;
+}
+
+.effect-moveleft.animate .outer-nav a{
+	font-family:'Felipa', Arial, Helvetica, sans-serif;
+	font-size:1.5em;
+	font-weight:600;
+	text-shadow: 2px 1px 8px white;
+}
