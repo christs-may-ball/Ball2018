@@ -234,12 +234,12 @@ h1 {
 .workers h2 {
   position: absolute;
   width: 100%;
-  top: 30%;
+  top: 25%;
   font-size: 4em;
 }
 
 .workers-buttons {
-  bottom: 30%;
+  bottom: 25%;
 
   position: absolute;
 
