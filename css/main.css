@@ -1,0 +1,416 @@
+/* html {
+  scroll-behavior: smooth;
+} */
+
+body {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: serenity, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  padding: 0;
+  margin: 0;
+  background-image: url("../resources/ezgif.com-gif-maker.gif");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+h1 {
+  line-height: 5vw;
+}
+
+.title .contain-bottom {
+  position: relative;
+}
+
+.landing .bottom-line {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  margin-bottom: 4%;
+  font-size: 1.5em;
+  letter-spacing: 0.1em;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.landing .date {
+  font-size: 2em;
+}
+
+.christs {
+  font-size: 8.5em;
+  margin-bottom: 0;
+  letter-spacing: 0.2em;
+  margin-right: -0.2em;
+}
+
+.box-with-text {
+  background-image: url(../resources/smoke_header.png);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  border: none;
+}
+
+.mayball {
+  padding: 0;
+  margin: 0;
+  font-size: 6vw;
+  letter-spacing: 0.1em;
+  margin-right: -0.1em;
+  font-size: 5.7em;
+}
+
+.landing {
+  width: 100%;
+  text-align: center;
+  height: 100%;
+  position: relative;
+}
+
+.landing .title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.header {
+  height: auto;
+  text-align: left;
+}
+
+.nav-container {
+  text-align: right;
+}
+
+.nav {
+  color: white;
+  position: fixed;
+  right: 0;
+  font-size: 1.5vw;
+  text-decoration: none;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+.nav a {
+  text-decoration: none;
+}
+
+.nav p {
+  text-decoration: none;
+}
+
+.smoke-header {
+  width: 100%;
+  position: fixed;
+  opacity: 88%;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* ENQUIRIES */
+.enquiries {
+  position: relative;
+  background-color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-image: url("../resources/smoke_bg.png");
+  background-size: cover;
+  height: max-content;
+  display: inline-block;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.mlismbp {
+  font-size: 1.2em;
+  color: white;
+  font-weight: 200;
+}
+
+.enquiries h2 {
+  color: white;
+  font-size: 5vw;
+}
+
+.e-header-div {
+  position: relative;
+  z-index: 10;
+}
+
+.enquiries p {
+  font-size: 1.2em;
+  color: white;
+}
+
+.enquiries p a {
+  color: white;
+  text-decoration: none;
+}
+
+/* .container-container-container {
+  height: 100%;
+  position: relative;
+}
+
+.container-container {
+  top: 50%;
+  position: absolute;
+  transform: translate(0%, -50%);
+} */
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 2%;
+  padding-left: 15%;
+  padding-right: 15%;
+  margin: -10px 0 0 -10px;
+  position: relative;
+  flex-flow: row wrap;
+  /* top: 30%; */
+}
+
+.container div a {
+  color: white;
+  text-decoration: none;
+}
+
+.enquiries h2 {
+  font-size: 4em;
+}
+
+.item {
+  color: white;
+  display: inline-block;
+  padding: 20px;
+  margin: 10px 0 0 1%;
+  flex-basis: 15%;
+  flex-grow: 1;
+  text-decoration: none;
+}
+
+.head {
+  font-weight: 200;
+}
+
+.department {
+  font-weight: 400;
+  font-size: 1.2em;
+}
+
+.item img {
+  height: 5vw;
+  width: 8vw;
+}
+
+.fa-envelope {
+  font-size: 5vw;
+  font-weight: 100;
+}
+
+/* WORKERS */
+
+.workers {
+  height: 100%;
+  position: relative;
+}
+
+.workers .workers-text {
+  font-size: 1.4em;
+  width: 30em;
+  letter-spacing: 0.2em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.workers h2 {
+  font-size: 4em;
+}
+
+.workers-buttons {
+  bottom: 0;
+
+  position: absolute;
+
+  width: 100%;
+}
+
+.workers button {
+  margin: 0.3vw;
+}
+
+.btn {
+  border: 3px solid black;
+  background-color: transparent;
+  color: black;
+  padding: 14px 28px;
+  font-size: 1.5em;
+  cursor: pointer;
+  font-family: serenity, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  text-transform: capitalize;
+  width: 30%;
+}
+
+.default {
+  border-color: #0c0808;
+  color: black;
+  padding: 5px;
+}
+
+.default:hover {
+  background: #e7e7e7;
+}
+
+.header div {
+  text-decoration: none;
+  z-index: 2;
+}
+
+.header div a {
+  color: white;
+  z-index: -1000;
+}
+
+/* Roles */
+
+.roles {
+  position: relative;
+  background-color: black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-image: url("../resources/smoke_bg.png");
+  background-size: cover;
+  height: max-content;
+  display: inline-block;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.inner {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.roles h2 {
+  color: white;
+  font-size: 5vw;
+}
+
+.roles p {
+  color: white;
+}
+
+.roles p a {
+  color: white;
+  text-decoration: none;
+}
+
+.roles h2 {
+  font-size: 4em;
+}
+
+.r-header-div {
+  position: relative;
+  z-index: 10;
+}
+
+.info {
+  text-transform: lowercase;
+  font-size: 1.5em;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+}
+
+.role {
+  color: white;
+  display: inline-block;
+  padding: 1.5em;
+  margin: 1em 0 0 1%;
+  flex-basis: 15%;
+  flex-grow: 1;
+  text-decoration: none;
+  text-align: center;
+}
+
+.role p {
+  font-size: 1.5em;
+  font-weight: 200;
+}
+
+.rolelogo {
+  width: 9em;
+  height: 9em;
+}
+
+@media only screen and (max-device-width: 800px) {
+  .nav {
+    font-size: 1.16em;
+  }
+
+  .landing .title {
+    width: 100%
+  }
+
+  .landing .bottom-line {
+    width: 100%;
+    overflow: unset;
+
+  }
+
+  .smoke-header {
+    position: fixed;
+    opacity: 88%;
+    pointer-events: none;
+    z-index: 0;
+    height: 17vh;
+  }
+
+  .mayball {
+    font-size: 2.55em;
+  }
+
+
+  .christs {
+    font-size: 3.8em;
+  }
+
+  .smoke-header {
+    z-index: 1;
+  }
+
+  .e-header-div {
+    z-index: 0;
+  }
+
+  .enquiries h2 {
+    font-size: 3em;
+  }
+
+  .workers .workers-text {
+    width: 100%;
+    padding-top: 20px;
+  }
+
+  .workers h2 {
+    font-size: 3em;
+    padding-top: 40px;
+  }
+
+  .btn {
+    width: 54%;
+  }
+
+}
