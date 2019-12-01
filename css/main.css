@@ -232,14 +232,11 @@ h1 {
 }
 
 .workers h2 {
-  position: absolute;
-  width: 100%;
-  top: 30%;
   font-size: 4em;
 }
 
 .workers-buttons {
-  bottom: 30%;
+  bottom: 0;
 
   position: absolute;
 
@@ -358,23 +355,7 @@ h1 {
   height: 9em;
 }
 
-@media only screen and (max-device-width: 750px) {
-  .workers h2 {
-    position: absolute;
-    width: 100%;
-    top: 0%;
-    font-size: 4em;
-  }
-  
-  .workers-buttons {
-    bottom: 0%;
-  
-    position: absolute;
-  
-    width: 100%;
-  }
-  
-
+@media only screen and (max-device-width: 800px) {
   .nav {
     font-size: 1.16em;
   }
