@@ -16,8 +16,9 @@ body {
   margin: 0;
   /* background-attachment: fixed; */
   background-position: center;
-  background-image: url("../resources/longwhiteboi.png");
+  background-image: url("../resources/light-mob-bg.png");
   background-size: 100% 100%;
+  background-repeat: no-repeat;
 }
 
 h1 {
@@ -27,7 +28,6 @@ h1 {
 .title .contain-bottom {
   position: relative;
 }
-
 
 
 .landing {
@@ -41,11 +41,11 @@ h1 {
   background-size: 100% 100%;
 }
 
-.landing .title {
+.landing .inner {
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -30%);
 }
 
 .header {
@@ -64,7 +64,7 @@ h1 {
   right: 0;
   font-size: 1.5vw;
   text-decoration: none;
-  padding-top: 20px;
+  padding-top: 1vw;
   padding-right: 20px;
 }
 
@@ -77,6 +77,7 @@ h1 {
 }
 
 .smoke-header {
+  height: 8vw;
   width: 100vw;
   position: fixed;
   opacity: 99%;
@@ -93,7 +94,7 @@ h1 {
 /* ENQUIRIES */
 .enquiries {
   position: relative;
-  padding-top: 10vh;
+  padding-top: 2vh;
   padding-bottom: 10vh;
   height: max-content;
   display: inline-block;
@@ -139,9 +140,37 @@ h1 {
   font-size: 1.2em;
 }
 
-.item img {
-  height: 5vw;
-  width: 8vw;
+/* .item img {
+  clip-path: circle(100px at 62% 50%);
+  height: auto;
+  width: 33vw;
+} */
+
+.item a p:hover {
+  text-decoration: none;
+
+}
+
+.image-cropper {
+  width: 20em;
+  display: inline-block;
+  height: 20em;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  max-width: 40vw;
+  max-height: 40vw;
+}
+
+.image-cropper img {
+  display: inline;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
+}
+
+.col-sm {
+  
 }
 
 
@@ -189,7 +218,7 @@ h1 {
   background-image: url(' ../resources/dark\ bg.png');
   background-size: 100% 100%;
   padding-top: 7vh;
-  padding-bottom: 20vh;
+  padding-bottom: 30vh;
 }
 
 .faqs-blur {
@@ -320,11 +349,13 @@ div .collapsible-body p {
     height: auto
   }
 
-  .smoke-header {
-    height: 5em
+
+  .smoke-header{
+    height: 12vw;
   }
 
-  
+
+
   div .collapsible {
     border: none;
 
@@ -364,6 +395,9 @@ div .collapsible-body p {
     margin: 0;
   }
 
+  .item img {
+    width: 50vw;
+  }
 }
 
 
@@ -371,5 +405,14 @@ div .collapsible-body p {
   .landing {
     background-size: auto 100%;
     background-repeat: repeat-x;
+  }
+
+
+}
+
+@media only screen and (min-device-width: 960px) {
+
+  .smoke-header {
+    top: -3vh;
   }
 }
