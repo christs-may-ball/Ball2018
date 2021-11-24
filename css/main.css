@@ -15,7 +15,7 @@ body {
     margin: 0;
     /* background-attachment: fixed; */
     background-position: center;
-    background-image: url("../resources/2022/background.jpg");
+    background-image: url("../resources/2022/background.png");
     background-size: cover;
     background-repeat: no-repeat;
     min-height: 100vh;
@@ -41,7 +41,6 @@ h1 {
 
 .landing {
     width: 100%;
-    background-image: url("../resources/2022/background.jpg");
     background-repeat: no-repeat;
     background-position: center;
     text-align: center;
